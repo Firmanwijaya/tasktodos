@@ -11,7 +11,7 @@ function App() {
       <Provider store={store}>
           <BrowserRouter>
             <Routes>
-              <Route path="/" element={<HomePage />}></Route>
+              <Route path="/tasktodos" element={<HomePage />}></Route>
             </Routes>
           </BrowserRouter>
         </Provider>
